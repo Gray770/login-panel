@@ -12,9 +12,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <form id="form" action="" method="get">
+    <form id="form" action="">
         <img src="/img/login.png" alt="Ikona użytkownika">
-        <div id="error">
+        <div id="error" class="error">
+
         </div>
         <div class="form-input-box">
             <input id="user" name="user" type="text" placeholder="User" autocomplete="off" required>
@@ -22,7 +23,7 @@
         <div class="form-input-box">
             <input id="password" name="password" type="password" placeholder="Password" autocomplete="off" required>
         </div>
-        <button>LOGIN</button>
+        <button id="submit">LOGIN</button>
         <div class="down-links">
             <p><a href="">Forgot your password?</a></p>
             <p>Don't have account? <a href="">Sign Up</a></p>
